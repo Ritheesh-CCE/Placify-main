@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;  
+    /* background-color: rgba(0, 0, 0, 0.2); */
+}
+.login{
+    display: flex;
+    height: 100%;
+width: 100%;
+}
+.login__s2{
+height: 100%;
+width: 100%;
+background-image: url(images/college-img.png);
+background-size: contain;
+}
+.login__s1{
+   display: flex;
+    height: 100%;
+width: 100%;
+justify-content: center;
+align-items: center;
+
+}
+.form{
+    margin-top: 40px;
+    height: 800px;
+    width: 500px;
+    /* background-color: #5C9CB7; */
+    background-color: #74c4e3;
+    color: white;
+    padding: 50px;
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 30px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.username{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+input{
+    border: none;
+    border-bottom:solid 1px grey;
+    padding: 20px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+    font-size: x-large;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
+}
+.btn_div{
+    margin-top: 35px;
+}
+.btn{
+    width: 100%;
+    padding: 30px;
+    margin: 10px;
+    margin-top: 25px;
+    border-radius: 19px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: #74c4e3;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    cursor: pointer;
+   
+}
+
+
+/*********************************************************************/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    background-color: #74c4e3;
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    font-size: medium;
+   
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar__list{
+    display: flex;
+    gap: 50px;
+   
+    list-style: none;
+    margin-right: 10px;
+    font-size: larger;
+    font-weight: 600;
+    
+    
+}
+.navbar__list li a{
+    color: white;
+}
+.navbar__list li a:hover{
+    border-bottom: 3px solid white;
+
+    /*border: 1px soldi #74c4e3;
+     color: #74c4e3;
+    border-radius: 10px;
+    padding: 6px;
+    background-color: white; */
+}
+.drives_img img{
+    height: 300px;
+    width: 100%;
+   position: relative;
+}
+.drives_header h1{
+    position: absolute;
+    top: 115px;
+    left: 100px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Tilt Neon", sans-serif;
+    color:#74c4e3;   
+    font-size: 70px;
+    letter-spacing: 2.5px;
+    font-weight: 800;   
+}
+.drives{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin: 20px;
+    }
+.drives__container{
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(56, 146, 199, 0.4) 0px 2px 4px, rgba(56, 146, 199, 0.3) 0px 7px 13px -3px, rgba(56, 146, 199, 0.2) 0px -3px 0px inset;
+    display: flex;
+    gap: 5px;
+}
+.drives__s1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bolder;
+    color: #74c4e3;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+.drives__s2{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.drives__s2__details{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-right: 25px;
+    padding-right: 20px;
+}
+.drives__s2__descript{
+    margin-bottom: 10px;
+}
+.drives__s2__btn{
+    background-color: #74c4e3;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 7px;
+    margin: 7px;
+    cursor: pointer;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.company{
+    margin-bottom: 20px;
+    margin-left: 210px;
+    background-color: white;
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.company_header__img img{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+}
+.company_header{
+    position: relative;
+}
+.company_header__heading{
+    position: absolute;
+   top: 40px;
+   left: 70px;  
+   color: white;
+   font-family: "Tilt Neon", sans-serif;
+   letter-spacing: 1px;
+ 
+}
+.company_header__heading h1{
+    font-weight: bolder;
+    font-size: 35px;
+}
+.company_role{
+padding: 20px 20px 0px 20px;
+}
+.company_role h1{
+    font-family: "Tilt Neon", sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.company_role ul{
+    list-style: none;
+    font-size: medium;
+    letter-spacing: 0.7px;
+    padding: 5px;
+}
+.requirements{
+    padding: 20px 20px 0px 20px; 
+}
+.requirements h1{
+    font-family: "Tilt Neon", sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.requirements ul{
+    list-style: none;
+    font-size: medium;
+    letter-spacing: 0.8px;
+    padding: 5px;
+}
+.company_rounds{
+    padding: 20px 20px 0px 20px;
+}
+.company_rounds h1{
+    font-family: "Tilt Neon", sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.company_rounds ul{
+      list-style: none;
+    font-size: medium;
+    letter-spacing: 0.8px;
+    padding: 5px;
+}
+.company_rounds h4{
+    font-family: "Tilt Neon", sans-serif;
+    letter-spacing: 0.8px;
+    font-size: large;
+}
+.company_package{
+    padding: 20px 20px 0px 20px;
+
+}
+.company_package h1{
+    font-family: "Tilt Neon", sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.company_package ul{
+    list-style: none;
+    font-size: medium;
+    letter-spacing: 0.8px;
+    padding: 5px;
+}
+.company_package h4{
+    font-family: "Tilt Neon", sans-serif;
+    letter-spacing: 0.8px;
+    font-size: large;
+}
+.company_experience{
+    padding: 20px 20px 0px 20px;
+}
+.company_experience h1{
+    font-family: "Tilt Neon", sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.company_experience ul{
+    list-style: none;
+    font-size: 300;
+    letter-spacing: 1px;
+    padding: 9px;
+}
+.company_experience h3{
+    font-family: "Tilt Neon", sans-serif;
+    letter-spacing: 0.8px;
+    font-size: larger;
+    padding: 4px;
+}
+.company_experience h4{
+    font-family: "Tilt Neon", sans-serif;
+    letter-spacing: 0.8px;
+    font-size: large;
+    padding: 4px;
+}
+.company_desc{
+    padding: 10px 20px 20px 20px;
+}
+.company_desc h1{
+    font-family: "Tilt Neon", sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.company_desc p{
+    padding: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.company_back_btn{
+    background-color: #74c4e3;
+    padding: 18px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.company_back_btn a{
+    text-decoration: none;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+.training-header_details{
+    position: relative;
+}
+.training-header_details img{
+    height: 300px;
+    width: 100%;
+}
+.training-header_details h1{
+    position: absolute;
+    left: 60px;
+    top: 80px;
+    color: white;
+    font-family: "Tilt Neon", sans-serif;
+    font-weight: 30px;
+    font-size: 80px;
+}
+.trainings{
+    display: flex;
+    
+    flex-wrap: wrap;
+  gap: 40px;
+  margin: 50px;
+  justify-content: space-between;
+}
+.training-details{
+    border-radius: 10px;
+    /* flex-basis: %; */
+    flex-basis: 30%;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin: 15x 15px 0 15px;
+}
+.training-details__heading{
+    display: flex;
+    justify-content: center;
+    background-color: #74c4e3;
+    color: white;
+    font-family: "Tilt Neon", sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+.training-details__dates{
+    display: flex;
+    /* font-family: "Tilt Neon", sans-serif; */
+    font-size: small;
+    justify-content: space-between;
+    padding:10px 15px 0px 15px;
+}
+.training-details__topics h3{
+    font-family: "Tilt Neon", sans-serif;
+    padding: 10px;
+    padding-left: 20px;
+}
+.training-details__topics ul{
+    padding: 0 25px 25px 25px;
+    list-style: none;
+}
+.training-details__topics li{
+    font-size: medium;
+}
+.training-details__topics h4{
+    font-family: "Tilt Neon", sans-serif;
+    font-size: large;
+}
